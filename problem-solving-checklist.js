@@ -69,7 +69,7 @@ console.log(getinches ,'my inches'); */
 // }
 // console.log(largestname(friendsname));
 
-let friendsname = [
+/* let friendsname = [
   "ashilchuratttttttttttttttttttttttttttt",
   "shakibdfsdfsdfsd",
   "mariyarjamai",
@@ -86,4 +86,46 @@ function biggestone(name) {
   }
   return big;
 }
-console.log(biggestone(friendsname));
+console.log(biggestone(friendsname)); */
+
+/* let firsbookpages = 100;
+
+function quantity(first) {
+  firsbookpages * first;
+  let page = firsbookpages * first;
+  return page;
+}
+result = quantity(10,);
+console.log(result);
+ */
+
+// var number = [70, 80, 90, 100, 35, 67, 43, 82, 105];
+// for (var i = 0; i < number.length; i++) {
+//   var allnumber = number[i];
+//   if (allnumber < 100) {
+//     continue;
+//   }
+//   console.log(allnumber);
+// }
+
+/* var number = [50, 40, 44, 63, 35, 75, 35, 64, 46];
+for (var i = 0; i < number.length; i++) {
+  var allnumber = number[i];
+  if (allnumber > 60) {
+    break;
+  }
+  console.log(allnumber);
+} */
+
+// find positive number in Array
+
+let number = [10, 20, 30, -20, 50, -40, 33];
+let pos = 0;
+for (let i = 0; i < number.length; i++) {
+  if (number[i] < 0) {
+    pos++;
+  } else {
+    undefined;
+  }
+}
+console.log(pos);
